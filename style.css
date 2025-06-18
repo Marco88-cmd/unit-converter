@@ -1,7 +1,32 @@
-.icono {
-    width: 128px;
-    height: 128px;
-    display: inline-block;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border-radius: 10 %;
+}
+
+.grid-item {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.grid-item img {
+    width: 96px;
+    height: 96px;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
