@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url(/fonts/fonts/Roboto-VariableFont_wdth\,wght.ttf) format('truetype');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #222222;
+}

@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Sync to GitHub (Unit Converter)",
+      "type": "shell",
+      "command": ".\\sync-to-github.bat",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "C:/Users/Marco!/Desktop/Unit converter/unit-converter"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Pull from GitHub",
+      "type": "shell",
+      "command": ".\\pull-from-github.bat",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "C:/Users/Marco!/Desktop/Unit converter/unit-converter"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    }
+  ]
+}
