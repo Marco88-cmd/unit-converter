@@ -12,3 +12,8 @@ body {
     background-color: #ffffff;
     color: #222222;
 }
+
+img {
+    width: 64px;
+    height: 64px;
+}
